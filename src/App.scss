@@ -1,0 +1,22 @@
+.app {
+  padding: 30px 60px;
+
+  .header {
+    border-top: 1px solid #b7b2b2;
+    border-bottom: 1px solid #b7b2b2;
+    padding: 15px 0;
+
+    h2 {
+      color: rgba(0, 0, 0, 0.71);
+    }
+
+  }
+
+  .wrapper {
+    display: flex;
+    justify-items: flex-start;
+    max-width: 90%;
+    gap: 30px;
+  }
+}
+
