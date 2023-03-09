@@ -1,13 +1,26 @@
 import React from "react";
+import "./CatGallery.scss";
 
-export default function CatGallery({cats, handleClick}) {
-    return<div>
-        {cats.map(cat => (
-            <div key={cat.name} className="cat-item" onClick={() => handleClick(cat)}>
-                <img src={cat.image} alt={cat.name} />
-                <div className="cat-name">{cat.name}</div>
-                <div className="clicks">{cat.clicks}</div>
-            </div>
-        ))}
-    </div>
+function CatGallery({cats, onClick}) {
+    return (
+        <div className="gallery">
+            {cats.map((cat) => (
+                <div key={cat.id}>
+                    <div className="gallery-card" onClick={() => onClick(cat)}>
+                        <div className={"gallery-title"}>
+                            <h4>{cat.name}</h4>
+                            <p>No. of times clicked : {cat.clicks}</p>
+                        </div>
+
+                        <img src={cat.image} className="card-img-top" alt={cat.name}/>
+                        <a href={"/"}>Card Link</a>
+
+
+                    </div>
+                </div>
+            ))}
+        </div>
+    );
 }
+
+export default CatGallery;
