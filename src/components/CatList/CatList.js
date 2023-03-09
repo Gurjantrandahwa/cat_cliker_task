@@ -1,16 +1,18 @@
 import React from "react";
-import {data} from "../../data";
+
 import "./CatList.scss";
 
-export default function CatList() {
+export default function CatList({cats, activeCat, handleClick}) {
     return <div className={"list"}>
-        {
-            data.map((cat) => {
-                return <div key={cat.id} className={"single-cat"}>
-                    <p className={"cat-name"}>{cat.catName}</p>
-                    <p className={"age"}>{cat.age}</p>
+
+            {cats.map(cat => (
+                <div key={cat.name}
+                     className={cat === activeCat ? "cat-item active" : "cat-item"}
+                     onClick={() => handleClick(cat)}
+                >
+                    {cat.name}
                 </div>
-            })
-        }
+            ))}
+
     </div>
 }

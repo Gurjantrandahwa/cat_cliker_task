@@ -1,118 +1,184 @@
-import cat from "./images/cat1.jpg"
-import cat1 from "./images/cat2.jpg"
+
 
 export const data = [
     {
-        id:1,
-        catName:"Boots",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 1,
+        name: "Whiskers",
+        age: "Infant",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_960_720.jpg",
+        nicknames: ["Whisky", "Whis", "Whis-whis"],
     },
     {
-        id:2,
-        catName:"Kiddos",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat1
+        id: 2,
+        name: "Mittens",
+        age: "Young",
+        clicks: 0,
+        image:
+            "https://4.bp.blogspot.com/-XkviAtJ1s6Q/T3YFb2RUhDI/AAAAAAAAAVQ/EHomLZlFMKo/s1600/small+cat.jpg",
+        nicknames: ["Mitty", "Mitt-Mitt", "The Mittster"],
     },
     {
-        id:3,
-        catName:"Loona",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 3,
+        name: "Socks",
+        age: "Middle-Age",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_960_720.jpg",
+        nicknames: ["Socksy", "Sock-it-to-me", "The Sockinator"],
     },
     {
-        id:4,
-        catName:"Ricky",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 1,
+        name: "Whiskers",
+        age: "Infant",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_960_720.jpg",
+        nicknames: ["Whisky", "Whis", "Whis-whis"],
     },
     {
-        id:5,
-        catName:"Tabby",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 2,
+        name: "Mittens",
+        age: "Young",
+        clicks: 0,
+        image:
+            "https://4.bp.blogspot.com/-XkviAtJ1s6Q/T3YFb2RUhDI/AAAAAAAAAVQ/EHomLZlFMKo/s1600/small+cat.jpg",
+        nicknames: ["Mitty", "Mitt-Mitt", "The Mittster"],
     },
     {
-        id:6,
-        catName:"Tiger",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 3,
+        name: "Socks",
+        age: "Middle-Age",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_960_720.jpg",
+        nicknames: ["Socksy", "Sock-it-to-me", "The Sockinator"],
     },
     {
-        id:7,
-        catName:"Loona2",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 4,
+        name: "Whiskers",
+        age: "Infant",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_960_720.jpg",
+        nicknames: ["Whisky", "Whis", "Whis-whis"],
     },
     {
-        id:8,
-        catName:"Boots2",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 5,
+        name: "Mittens",
+        age: "Young",
+        clicks: 0,
+        image:
+            "https://4.bp.blogspot.com/-XkviAtJ1s6Q/T3YFb2RUhDI/AAAAAAAAAVQ/EHomLZlFMKo/s1600/small+cat.jpg",
+        nicknames: ["Mitty", "Mitt-Mitt", "The Mittster"],
     },
     {
-        id:9,
-        catName:"Ricky2",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 6,
+        name: "Socks",
+        age: "Middle-Age",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_960_720.jpg",
+        nicknames: ["Socksy", "Sock-it-to-me", "The Sockinator"],
     },
     {
-        id:10,
-        catName:"Boots5",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 7,
+        name: "Whiskers",
+        age: "Infant",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_960_720.jpg",
+        nicknames: ["Whisky", "Whis", "Whis-whis"],
     },
     {
-        id:11,
-        catName:"Boots6",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 7,
+        name: "Mittens",
+        age: "Young",
+        clicks: 0,
+        image:
+            "https://4.bp.blogspot.com/-XkviAtJ1s6Q/T3YFb2RUhDI/AAAAAAAAAVQ/EHomLZlFMKo/s1600/small+cat.jpg",
+        nicknames: ["Mitty", "Mitt-Mitt", "The Mittster"],
     },
     {
-        id:12,
-        catName:"Boots7",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 8,
+        name: "Socks",
+        age: "Middle-Age",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_960_720.jpg",
+        nicknames: ["Socksy", "Sock-it-to-me", "The Sockinator"],
     },
     {
-        id:13,
-        catName:"Boots10",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 9,
+        name: "Whiskers",
+        age: "Infant",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_960_720.jpg",
+        nicknames: ["Whisky", "Whis", "Whis-whis"],
     },
     {
-        id:14,
-        catName:"Tiger5",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 10,
+        name: "Mittens",
+        age: "Young",
+        clicks: 0,
+        image:
+            "https://4.bp.blogspot.com/-XkviAtJ1s6Q/T3YFb2RUhDI/AAAAAAAAAVQ/EHomLZlFMKo/s1600/small+cat.jpg",
+        nicknames: ["Mitty", "Mitt-Mitt", "The Mittster"],
     },
     {
-        id:15,
-        catName:"Tiger10",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 11,
+        name: "Socks",
+        age: "Middle-Age",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_960_720.jpg",
+        nicknames: ["Socksy", "Sock-it-to-me", "The Sockinator"],
     },
     {
-        id:16,
-        catName:"Kitty",
-        nicNames:["taby,toby,tubbibi"],
-        age:"28",
-        image:cat
+        id: 12,
+        name: "Socks",
+        age: "Middle-Age",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_960_720.jpg",
+        nicknames: ["Socksy", "Sock-it-to-me", "The Sockinator"],
     },
-
+    {
+        id: 13,
+        name: "Socks",
+        age: "Middle-Age",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_960_720.jpg",
+        nicknames: ["Socksy", "Sock-it-to-me", "The Sockinator"],
+    },
+    {
+        id: 14,
+        name: "Socks",
+        age: "Middle-Age",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_960_720.jpg",
+        nicknames: ["Socksy", "Sock-it-to-me", "The Sockinator"],
+    },
+    {
+        id: 15,
+        name: "Socks",
+        age: "Middle-Age",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_960_720.jpg",
+        nicknames: ["Socksy", "Sock-it-to-me", "The Sockinator"],
+    },
+    {
+        id: 16,
+        name: "Socks",
+        age: "Middle-Age",
+        clicks: 0,
+        image:
+            "https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_960_720.jpg",
+        nicknames: ["Socksy", "Sock-it-to-me", "The Sockinator"],
+    },
 ]

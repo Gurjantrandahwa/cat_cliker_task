@@ -1,9 +1,59 @@
-.form{
+.form {
   width: 30%;
 
-  .form-card{
-    border: 1px solid gray;
-    padding: 15px;
+  button {
+    cursor: pointer;
   }
 
+  .form-card {
+    border: 1px solid gray;
+    padding: 15px;
+
+    .open-btn {
+      padding: 10px 10px;
+      background: #1993e5;
+      border: none;
+      text-transform: capitalize;
+      color: white;
+      font-size: 18px;
+      margin-bottom: 40px;
+
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .label {
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      input {
+        padding: 8px;
+        font-size: 18px;
+        margin-top: 8px;
+        outline: none;
+
+      }
+    }
+  }
+
+  .buttons {
+    .save {
+      background: #0ca60c;
+    }
+
+    .undo {
+      background: #b90f0f;
+    }
+
+    button {
+      padding: 10px 18px;
+      border-radius: 4px;
+      color: white;
+      border: none;
+    }
+  }
 }
