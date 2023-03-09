@@ -78,9 +78,7 @@ function App() {
                 </h2>
             </div>
             <div className="wrapper">
-
                 <CatList cats={cats} activeCat={activeCat} onClick={handleCatClick}/>
-
                 <CatCard cat={activeCat} onClick={handleCatImageClick}/>
                 <CatForm cat={activeCat} onSubmit={handleCatFormSubmit}/>
 

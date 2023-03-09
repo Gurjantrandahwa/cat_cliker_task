@@ -2,8 +2,8 @@
   padding: 30px 60px;
 
   .header {
-    border-top: 1px solid #b7b2b2;
-    border-bottom: 1px solid #b7b2b2;
+    border-top: 2px solid #b7b2b2;
+    border-bottom: 2px solid #b7b2b2;
     padding: 15px 0;
 
     h2 {
@@ -13,10 +13,12 @@
   }
 
   .wrapper {
+
     display: flex;
-    justify-items: flex-start;
-    max-width: 90%;
-    gap: 30px;
+    //justify-items: flex-start;
+    flex-wrap: wrap;
+    //width: 100%;
+    gap: 50px;
     margin-top: 15px;
   }
 
@@ -27,4 +29,12 @@
     font-size: 18px;
   }
 }
+;
 
+@media (max-width: 900px) {
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+}

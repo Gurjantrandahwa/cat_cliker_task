@@ -1,6 +1,6 @@
 
 .card-wrapper {
-  width: 45%;
+  max-width: 50%;
 
 
   .card {
@@ -9,7 +9,7 @@
     padding-bottom: 20px;
     width: 400px;
     height: 500px;
-
+    box-shadow: -1px 1px 4px -1px rgba(178, 175, 175, 0.75);
     .card-title {
       margin: 15px;
 
@@ -41,4 +41,19 @@
 
     }
   }
+}
+@media (max-width: 900px) {
+  .card-wrapper{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .card{
+
+      width: 100%;
+
+
+    }
+  }
+
 }
