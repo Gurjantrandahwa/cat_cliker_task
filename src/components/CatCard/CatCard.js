@@ -9,7 +9,7 @@ function CatCard({cat, onClick}) {
             <div className={"card"}>
                 <div className="card-title">
                     <h4>{cat.name}</h4>
-                    <p className="card-text">{`No. of times clicked : ${cat.clicks}`}</p>
+                    <p className="card-text">{`No. of times Clicked : ${cat.clicks}`}</p>
                 </div>
 
 

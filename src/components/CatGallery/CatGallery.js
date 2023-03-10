@@ -9,7 +9,7 @@ function CatGallery({cats, onClick}) {
                     <div className="gallery-card" onClick={() => onClick(cat)}>
                         <div className={"gallery-title"}>
                             <h4>{cat.name}</h4>
-                            <p>No. of times clicked : {cat.clicks}</p>
+                            <p>No. of times Clicked : {cat.clicks}</p>
                         </div>
 
                         <img src={cat.image} className="card-img-top" alt={cat.name}/>

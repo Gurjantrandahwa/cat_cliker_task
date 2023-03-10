@@ -81,7 +81,6 @@ function App() {
                 <CatList cats={cats} activeCat={activeCat} onClick={handleCatClick}/>
                 <CatCard cat={activeCat} onClick={handleCatImageClick}/>
                 <CatForm cat={activeCat} onSubmit={handleCatFormSubmit}/>
-
             </div>
             <hr style={{margin: "30px 0",}}/>
             <hr/>
