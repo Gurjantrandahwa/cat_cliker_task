@@ -52,9 +52,9 @@ function CatForm({cat, onSubmit}) {
             <div className={`close${isActive ? "open" : ""}`}>
                 <div className={"form-card"}>
                     <form onSubmit={handleSubmit}>
-                        <div className="mb-3">
+                        <div>
                             <div>
-                                <label htmlFor="name" className="form-label">
+                                <label htmlFor="name" >
                                     Cat Name
                                 </label>
                             </div>
@@ -62,23 +62,22 @@ function CatForm({cat, onSubmit}) {
                             <input
                                 type="text"
                                 required
-                                className="form-control"
+
                                 id="name"
                                 name="name"
                                 value={formData.name}
                                 onChange={handleInputChange}
                             />
                         </div>
-                        <div className="mb-3">
+                        <div>
                             <div>
-                                <label htmlFor="image" className="form-label">
+                                <label htmlFor="image">
                                     Cat Image
                                 </label>
                             </div>
 
                             <input
                                 type="url"
-                                className="form-control"
                                 id="image"
                                 name="image"
                                 required
@@ -86,15 +85,14 @@ function CatForm({cat, onSubmit}) {
                                 onChange={handleInputChange}
                             />
                         </div>
-                        <div className="mb-3">
+                        <div >
                             <div>
-                                <label htmlFor="clicks" className="form-label">
+                                <label htmlFor="clicks">
                                     Cat Clicks
                                 </label>
                             </div>
 
                             <input
-                                className="form-control"
                                 id="clicks"
                                 name="clicks"
                                 required

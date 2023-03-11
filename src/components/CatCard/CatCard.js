@@ -9,7 +9,7 @@ function CatCard({cat, onClick}) {
             <div className={"card"}>
                 <div className="card-title">
                     <h4>{cat.name}</h4>
-                    <p className="card-text">{`No. of times Clicked : ${cat.clicks}`}</p>
+                    <p >{`No. of times Clicked : ${cat.clicks}`}</p>
                 </div>
 
 
@@ -22,7 +22,7 @@ function CatCard({cat, onClick}) {
                 <div className="card-body">
 
 
-                    <p className="card-text">{cat.age}</p>
+                    <p>{cat.age}</p>
                     <a href={"/"}>Card Link</a>
                 </div>
             </div>
