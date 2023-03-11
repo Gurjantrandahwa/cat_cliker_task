@@ -47,6 +47,7 @@ function App() {
                 ...formData,
                 id: Date.now(),
                 clicks: 0,
+                image:"",
                 age: calculateAge(0),
             };
             setCats([...cats, newCat]);

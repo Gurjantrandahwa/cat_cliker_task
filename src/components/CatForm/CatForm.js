@@ -21,6 +21,11 @@ function CatForm({cat, onSubmit}) {
             clicks: cat.clicks || formData.clicks,
             id: cat.id,
         });
+        setFormData({
+            name: "",
+            image: "",
+            clicks: 0,
+        })
     };
     const resetForm = () => {
         setFormData({
